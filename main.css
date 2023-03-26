@@ -146,3 +146,11 @@
 background-color: aquamarine;
 top: 50%;
 }
+
+.play-arms:hover + .container .link-arm{
+    transform: rotate(50deg);
+}
+
+.play-arms:hover + .container .right-arm{
+    transform: rotate(-50deg);
+}
