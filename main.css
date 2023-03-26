@@ -2,8 +2,10 @@
     margin: 10;
     padding: 10;
 }
-.container{
 
+.container{
+  display: flex;
+  justify-content: center;
 }
 
 .penguin-body{
@@ -89,4 +91,34 @@
     position: absolute;
     transform: translate(-50%);
     left: 50%;
+}
+
+.arms{
+    width: 90%;
+    position: absolute;
+    background-color: aqua;
+    top: 20%;
+    z-index: 1;
+   
+}
+
+.arm{
+    height: 250px;
+    width: 50px;
+    background-color: black;
+    border-radius: 40%;
+
+    position: absolute;
+}
+
+.link-arm{
+    left: 0%;
+    transform: rotate(30deg);
+    transform-origin: top right;
+}
+
+.right-arm{
+    right: 0%;
+    transform: rotate(-30deg);
+    transform-origin: top left;
 }
