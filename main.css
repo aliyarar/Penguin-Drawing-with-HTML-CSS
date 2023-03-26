@@ -122,3 +122,27 @@
     transform: rotate(-30deg);
     transform-origin: top left;
 }
+
+.button{
+    width:200px;
+    height: 50px;
+    border:none;
+
+    position: fixed;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.change-color{
+  background-color: aqua;
+  top: 40%;
+}
+
+.change-color:hover ~ .container .arm,.change-color:hover ~ .container .penguin-body{
+ background-color: grey;
+}
+
+.play-arms{
+background-color: aquamarine;
+top: 50%;
+}
