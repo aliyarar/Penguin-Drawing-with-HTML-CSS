@@ -17,8 +17,32 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 
+.penguin-body::before{
+    content:"";
+    width: 180px;
+    height: 130px;
+    background-color: orange;
+    border-radius: 45%;
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    z-index: 1;
+}
+
+.penguin-body::after{
+    content:"";
+    width: 180px;
+    height: 130px;
+    background-color: orange;
+    border-radius: 45%;
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+    z-index: 1;
+}
 .eyes{
     display: flex;
     justify-content: space-around;
