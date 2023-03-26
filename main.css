@@ -139,7 +139,7 @@
 }
 
 .change-color:hover ~ .container .arm,.change-color:hover ~ .container .penguin-body{
- background-color: grey;
+ background-color: grey ;
 }
 
 .play-arms{
@@ -153,4 +153,8 @@ top: 50%;
 
 .play-arms:hover + .container .right-arm{
     transform: rotate(-50deg);
+}
+
+.penguin-body:hover, .penguin-body:hover .link-arm, .penguin-body:hover .right-arm{
+    background-color: pink;
 }
